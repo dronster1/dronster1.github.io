@@ -1,0 +1,239 @@
+body{
+  font-family: 'Tahoma', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  background: url(../img/bg.jpg) repeat-x;
+}
+
+a{
+	text-decoration: none;
+}
+
+button{
+	border: none;
+	outline: none;
+}
+
+.clearfix:before{
+  content: '';
+  display: table;
+}
+
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  box-shadow: 0px 5px 10px -1px;
+}
+
+
+.cbutton:before{
+  content: '';
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: no-repeat top left;
+}
+
+.cbutton1:before{
+  background: url(../img/india.png);
+}
+.cbutton2:before{
+  background: url(../img/nepal.png);
+}
+.cbutton3:before{
+  background: url(../img/tibet.png);
+}
+.cbutton4:before{
+  background: url(../img/butan.png);
+}
+.cbutton5:before{
+  background: url(../img/shri.png);
+}
+.cbutton6:before{
+  background: url(../img/maldivi.png);
+}
+
+.triangle:after{
+      content: '';
+      position: relative;
+      left: 8px;
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background-image: url(../img/triangle.png);
+      background-position: top right;
+}
+
+.header{
+  padding: 0 25px;
+  padding-top: 4px;
+  background-color: #fff;
+  font-size: 12px;
+  color: #128aa7;
+}
+.header_logo{
+  position: relative;
+  float: left;
+}
+.header_subtitle{
+  position: absolute;
+  top: 50%;
+  left: 70px;
+}
+.header_lst{
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header_cbuttons{
+  clear: right;
+}
+}
+.header_link{
+  display: inline-block;
+  text-decoration: underline;
+  }
+.header a{
+  color: #128AA7;
+}
+
+.list_itm{
+  line-height: 18px;
+}
+
+.list_itm_inline{
+  display: inline-block;
+  padding-top: 34px;
+  padding-right: 20px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.list_itm_inline:last-child{
+  padding-right: 0;
+}
+
+.navi{
+  padding-top: 238px;
+  background: url(../img/bg_header.jpg) no-repeat;
+}
+
+.navi_lst{
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 30px;
+  background-color: #303030;
+  list-style: none;
+  cursor: pointer;
+  box-shadow: 0 3px 7px 0 #000;
+}
+
+.navi_sublst{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: none;
+  background-color: #303030;
+  border-top: 1px solid #000;
+  list-style: none;
+}
+
+.navi_itm{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.navi_itm:hover ul{
+  display: block;
+}
+
+.navi_itm:hover .triangle:after{
+  background-position: top left;
+}
+
+.navi_itm:last-child{
+  padding-right: 0;
+}
+
+.navi_lnk{
+  padding: 0 30px;
+  color: #FFF;
+}
+
+.navi_sublnk{
+  padding: 0;
+}
+
+.navi_subitm{
+  padding-left: 10px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
+
+.content{
+  height: 540px;
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+.content_left{
+  float: left;
+  margin-bottom: -1500px;
+  padding-bottom: 1500px;
+  width: 198px;
+  background-color: #EDEEF0;
+  border-right: 1px solid #C7CFCF;
+}
+
+.content_center{
+  float: left;
+  margin-bottom: -1500px;
+  padding-bottom: 1500px;
+  width: 600px;
+  background-color: #FFF;
+}
+
+.content_right{
+  float: right;
+  margin-bottom: -1500px;
+  padding-bottom: 1500px;
+  width: 198px;
+  background-color: #edeef0;
+  border-left: 1px solid #c7cacf;
+}
+
+.content{
+  text-align: center;
+}
+
+.content_subtitle{
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #424C43;
+}
+
+.content p{
+  margin: 0;
+  color: #424C43;
+}
+
+.footer{
+  line-height: 33px;
+  color: #FFF;
+  text-align: center;
+}
