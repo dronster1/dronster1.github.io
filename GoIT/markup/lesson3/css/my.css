@@ -1,11 +1,3 @@
-html{
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
@@ -57,31 +49,37 @@ button{
 .navi_lst{
   margin: 0;
   padding: 0;
+  font-size: 0;
   background-image: linear-gradient(to top, #444343 0%, #5E5E5E 100%);
-}
-
-.navi_lst a{
-  color: white;
-  text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
 }
 
 .navi_itm{
   display: inline-block;
-  padding: 0 40px;
+  font-size: 13px;
   line-height: 40px;
   list-style: none;
 }
 
-.navi_itm a{
-  display: block;
-  height: 100%;
-}
-
-.navi_itm.active{
-  border-right: 1px solid #838383;
-  border-left: 1px solid #838383;
+.navi_itm:hover{
   background-image: linear-gradient(to top, #2E2E2E 0%, #4A4A4A 100%);
 }
+
+.navi_itm_active{
+  background-image: linear-gradient(to top, #2E2E2E 0%, #4A4A4A 100%);
+}
+
+.navi_itm_underline{
+  text-decoration: underline;
+}
+
+.navi_lnk{
+  display: block;
+  padding: 0 40px;
+  height: 100%;
+  color: white;
+  text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
+}
+
 
 .aside{
   float: left;
@@ -99,29 +97,29 @@ button{
   border-right: 1px solid #C8C8C8;
   border-left: 1px solid #C8C8C8;
 }
+.aside_itm:hover{
+  padding-left: 15px;
+  background-color: #F9F9F9;
+  color: #2c2c2c;
+}
 .aside_itm:first-child{
   border-top: 1px solid #C8C8C8;
 }
-.aside_itm a{
+.aside_lnk{
   padding: 10px 0;
   padding-left: 25px;
   display: block;
-  height: 100%;
   color: #656363;
 }
-.aside_itm a:hover{
-  padding-left: 35px;
-  background-color: #F9F9F9;
-  color: #2C2C2C;
-}
 
+.main_w{
+  float: right;
+}
 .main-info_img{
-  display: inline-block;
   padding: 50px 89px;
-  border: 1px solid #c8c8c8;
+  border: 1px solid #C8C8C8;
 }
 .main-info_paragraph{
-  float: right;
   max-width: 650px;
   margin-top: 30px;
 }
@@ -129,18 +127,43 @@ button{
 .footer_navi{
   margin-top: 60px;
 }
+
 .footer_navi_lst{
   margin: 0;
   padding: 0;
   background-image: linear-gradient(to top, #E1E1E1 0%, #E1E1E1 100%);
 }
-.footer_navi_itm a{
+
+.footer_navi_itm:hover{
+  background-image: none;
+  text-decoration: underline;
+}
+
+.footer_navi_lnk{
   color: #2C2C2C;
 }
-.footer_navi_itm.active--underline{
+
+.footer_navi_lnk_active{
   text-decoration: underline;
 }
 
 .copyright{
   float: right;
+  padding: 0 40px;
 }
+
+.copyright:hover{
+  background-color: #E1E1E1;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
