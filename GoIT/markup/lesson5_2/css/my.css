@@ -1,0 +1,29 @@
+table{
+  margin: auto;
+  border-collapse: collapse;
+}
+
+tr{
+  height: 50px;
+}
+
+td{
+  width: 30px;
+  border: 5px solid black;
+}
+
+td[colspan="2"]{
+  width: 100px;
+}
+
+td[colspan="4"] {
+  width: 200px;
+}
+
+.yellow{background-color: #ffe75d;}
+
+.orange{background-color: #ff6029;}
+
+.blue{background-color: #074a8d;}
+
+.dark{background-color: #182520;}
