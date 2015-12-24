@@ -38,6 +38,11 @@ body{
 	font-size:14px;
 	line-height:1.4;
 	color:##;
+	background-color: #000;
+	background: #074f8f url(../img/bg_head.jpg) 0 41px no-repeat;
+	background-size: 100%;
+  text-align: center;
+  width: 100%;
 	}
 
 a{
@@ -132,6 +137,15 @@ input:focus{
 	float:left;
 	}
 
+.container_header{
+	height: 36px;
+  width: 1251px;
+	position: relative;
+	line-height: 36px;
+	font-size: 14px;
+  margin: 0 auto;
+	}
+
 .wrapper{
 	float:right;
 	padding:0 20px;
@@ -147,6 +161,7 @@ input:focus{
 
 .header{
 	background:#085393 url(../img/bg_pattern.jpg) repeat;
+
 	}
 
 .menu_lst{
@@ -180,7 +195,7 @@ input:focus{
 	top:8px;
 	left:10px;
 	}
-	
+
 .login{
 	color:#fff;
 	}
@@ -188,9 +203,6 @@ input:focus{
 .content{
 	left:0;
 	padding:200px 0;
-	background:#bfd7e1 url(../img/bg_head.jpg) no-repeat;
-	background-size:cover;
-	background-position:center;
 	}
 
 .content,.content_reg{
